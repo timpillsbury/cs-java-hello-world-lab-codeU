@@ -9,7 +9,6 @@ public class HelloWorldTest {
 
     @org.junit.Test
     public void testGetVersion() throws Exception {
-        HelloWorld main = new HelloWorld();
-        assertTrue(main.getVersion() >= 1.7);
+        assertTrue(HelloWorld.getVersion() >= 1.7);
     }
 }
